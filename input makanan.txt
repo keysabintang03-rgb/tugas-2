@@ -1,0 +1,8 @@
+
+nama_makanan = input("nasi goreng ")
+harga_makanan = int(input("Rp.16000"))
+saldo_e_money = int(input("Rp.300000"))
+
+bisa_beli = saldo_e_money >= harga_makanan
+print("Item:", nama_makanan)
+print("Bisa Beli:", bisa_beli)
